@@ -20,6 +20,25 @@ link3.addEventListener('click', () => {
 })
 
 link4.addEventListener('click', () => {
-   scrollToElement('.Projetos');
+   scrollToElement('.projetos');
 })
+
+document.getElementById("openPdfButton").addEventListener("click", function() {
+   // URL do arquivo PDF
+   const pdfUrl = "Curriculo.pdf";
+   
+   // Abre o PDF em uma nova guia
+   window.open(pdfUrl, '_blank');
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+   const cards = document.querySelectorAll('.card');
+   cards.forEach(card => {
+       card.addEventListener('click', () => {
+           card.classList.toggle('is-flipped');
+       });
+   });
+});
+
 

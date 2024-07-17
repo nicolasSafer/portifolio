@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolas S</title>
+    <title>Nicolas S.F</title>
+    <link rel="icon" href="images/codigo.png">
+    <!-- Font de icons remix -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -18,6 +20,7 @@
 
 <body>
 
+    <!-- Menu -->
     <nav>
         <div class="nav-logo">
             <a href="">
@@ -32,7 +35,10 @@
         </ul>
 
     </nav>
+    <!-- Fim menu -->
 
+
+    <!-- Header foto -->
     <header class="container">
         <div class="content">
             <span class="blur"></span>
@@ -47,14 +53,15 @@
             </h1>
 
             <div class="btn-container">
-                <button class="btn btn-color-2">Curriculo</button>
+                <button class="btn btn-color-2" id="openPdfButton">Curriculo</button>
                 <button class="btn btn-color-1">Contato info</button>
             </div>
 
             <div id="socials-container">
-                <a href=""><i class="ri-linkedin-box-fill"></i></a>
-                <a href=""><i class="ri-github-fill"></i></a>
-                <a href=""><i class="ri-whatsapp-fill"></i></a>
+                <a href="https://www.linkedin.com/in/nicolas-fernandes-200807250/" target="_blank"><i
+                        class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/nicolasSafer" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://wa.me/qr/ZIEQKCM5LFH5K1" target="_blank"><i class="ri-whatsapp-fill"></i></a>
             </div>
 
         </div>
@@ -64,6 +71,67 @@
         </div>
 
     </header>
+    <!-- Fim header topo -->
+
+
+    <!-- Section projetos -->
+    <!-- 
+    <div class="titulo ">
+        <h2 class="tl ">Projetos</h2>
+        <p>Alguns projetos de estudos e profissionais</p>
+    </div>
+
+    <section class="projects">
+        <div class="wrapper projetos">
+            <div class="container-project">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card-project">
+                    <div class="row-project">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>BESTSTART</h4>
+                            <p>Projeto pessoal para gerenciamento de oficinas</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="card-project">
+                    <div class="row-project">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Finans</h4>
+                            <p>Projeto desenvolvido de estudos</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="card-project">
+                    <div class="row-project">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Xa-it</h4>
+                            <p>Empresa foca em Assistência técnica para computadores</p>
+                        </div>
+                    </div>
+                </label>
+
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="card-project">
+                    <div class="row-project">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>.</h4>
+                            <p>.</p> 
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section> -->
+    <!-- Fim section projetos -->
+
+
+    <!-- Section sobre  -->
     <section class="container " id="about">
 
         <p class="sub-header">Conheça mais</p>
@@ -72,7 +140,7 @@
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <i class="ri-award-fill"></i>
+                        <!-- <i class="ri-award-fill"></i> -->
                         <h3>Experiências</h3>
                         <p>
                             2+ Anos
@@ -81,7 +149,7 @@
                         </p>
                     </div>
                     <div class="details-container">
-                        <i class="ri-git-repository-fill"></i>
+                        <!-- <i class="ri-git-repository-fill"></i> -->
                         <h3>Estudos</h3>
                         <p>
                             Cursando
@@ -93,7 +161,7 @@
                 <p>Trabalho há 2 anos como freelancer desenvolvendo websites para empresas, além de realizar projetos de
                     automação, sistemas WEB e desktop. Também participei do desenvolvimento de sistemas para diversas
                     prefeituras em todo o Brasil, atendendo setores como gerenciamento de medicamentos, frotas e gestão
-                    predial, além de suas licitações.
+                    predial.
 
                 </p>
             </div>
@@ -102,13 +170,15 @@
 
 
     </section>
+    <!-- Fim Section sobre -->
 
 
+    <!-- Div titulo timeline -->
     <div class="titulo">
         <h2 class="tl">Timeline</h2>
         <p>Um pouco da minha carreira profissional e estudos </p>
     </div>
-
+    <!-- Section timeline  -->
     <section class="timeline">
 
         <div class="timeline-row">
@@ -117,7 +187,7 @@
                 <div class="timeline-box">
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2018 - 2022: Concluído</div>
+                            <div class="year"></i>2018 - 2022: Concluído</div>
                             <h3>Ensino Médio Técnico: </h3>
                             <p>No colécio CEEP (Centro Estadual de Educação Profissional do Paraná) realizei o curso
                                 técnico de edificações integrado com o ensino médio</p>
@@ -126,7 +196,7 @@
 
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2019 - 2020: Concluído</div>
+                            <div class="year"></i>2019 - 2020: Concluído</div>
                             <h3>Suporte Técnico em TI (FIEP - SENAI):</h3>
                             <p> Curso voltado à área da Tecnologia de Informação, aprendizado de ferramentas e programas
                                 para o suporte técnico e
@@ -136,7 +206,7 @@
 
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2021 - 2022: Concluído</div>
+                            <div class="year"></i>2021 - 2022: Concluído</div>
                             <h3>Técnico em Desenvolvimento de Sistemas (FIEP - SENAI): </h3>
                             <p>Curso voltado na área de tecnologia e programação Sistema, desenvolvendo sistemas WEB e
                                 Desktop aplicando metodos de programação orientado a objeto (POO) e
@@ -146,7 +216,7 @@
 
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2024 - Atual</div>
+                            <div class="year"></i>2024 - Atual</div>
                             <h3>Ensino Superior (Universidade UniBrasil)</h3>
                             <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde tenho adquirido
                                 uma ampla gama de referências e conhecimentos. Isso tem me permitido aplicar e aprimorar
@@ -159,12 +229,15 @@
             </div>
 
 
+
+
+
             <div class="timeline-column">
                 <h2 class="title">Experiências <span class="animate" style="--i:4;"></span></h2>
                 <div class="timeline-box">
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2023 - 2023</div>
+                            <div class="year">2023 - 2023</div>
                             <h3>Backend - Grupo Carletto: </h3>
                             <p>
                                 - Desenvolvimento e Manutenção de aplicações Web com consultas, parametrizações e
@@ -179,7 +252,7 @@
 
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2023 - 2024</div>
+                            <div class="year">2023 - 2024</div>
                             <h3>Fullstack - Brasil Predial:</h3>
                             <p>
                                 - Desenvolvimento de aplicações Web utilizando PHP, HTML, CSS e ScriptCase;
@@ -195,7 +268,7 @@
 
                     <div class="timeline-content">
                         <div class="content">
-                            <div class="year"><i class="ri-calendar-2-line"></i>2024 - Atual</div>
+                            <div class="year">2024 - Atual</div>
                             <h3>Fullstack - BESTSTART:</h3>
                             <p>Desenvolvimento Web site e sistemas com foco no gerenciamento para auto-peça e
                                 auto-center </p>
@@ -207,15 +280,16 @@
         </div>
 
     </section>
+    <!-- Fim section timeline -->
 
-    <!-- Section skills -->
 
+    <!-- Div titulo skills -->
     <div class="titulo">
         <h2 class="conhecimento">Conhecimentos</h2>
         <p>Possuo experiências com diferentes linguagens e frameworks para desenvolvimento de aplicações e paginas web
         </p>
     </div>
-
+    <!-- Sectiion skills -->
     <section class="skills" id="skills">
         <div class="container-con">
 
@@ -224,39 +298,112 @@
                 <p>Conhecimentos Frontend</p>
 
                 <div class="row" id="skillsContainer">
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/html5.png" alt="" style="width: 70px;">
                             <span>HTML5</span>
                             <p>Avançado</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 5+ anos</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/css.png" alt="" style="width: 70px;">
                             <span>CSS3</span>
                             <p>Intermediário</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 5+ anos</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/bootstrap.jpg" alt="" style="width: 85px;">
                             <span>Bootstrap</span>
                             <p>Avançado</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 ano</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/javascript-.png" alt="" style="width: 70px;">
                             <span>JavaScript</span>
                             <p>Básico</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 ano</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/ajax.png" alt="" style="width: 100px;">
                             <span>Ajax</span>
                             <p>Básico</p>
+                        </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 mês</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -264,60 +411,171 @@
             <div class="container">
                 <p>Conhecimentos Backend</p>
                 <div class="row" id="skillsContainer">
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/php.png" alt="" style="width: 70px;">
                             <span>PHP</span>
                             <p>Avançado</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 2 anos</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/laravel.png" alt="" style="width: 70px;">
                             <span>Laravel</span>
                             <p>Básico</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 6 meses</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/mysql.png" alt="" style="width: 70px;">
                             <span>MySQL</span>
                             <p>Avançado</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 4+ anos</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/c-sharp.png" alt="" style="width: 70px;">
                             <span>C#</span>
                             <p>Intermediário</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 ano</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/c.png" alt="" style="width: 70px;">
                             <span>C</span>
                             <p>Intermediário</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 ano</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/API.png" alt="" style="width: 70px;">
                             <span>API's</span>
                             <p>Básico</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 6 meses</p>
+                                </li>
+                                <li>
+                                    <p>Projetos pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/git.png" alt="" style="width: 70px;">
                             <span>GIT</span>
                             <p>Intermediário</p>
                         </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 1 ano</p>
+                                </li>
+                                <li>
+                                    <p>Aplicações pessoais</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bar">
-                        <div class="info">
+                    <div class="bar card">
+                        <div class="card-front info">
                             <img src="images/scriptcase.png" alt="" style="width: 70px;">
                             <span>ScriptCase</span>
                             <p>Avançado</p>
+                        </div>
+                        <div class="card-back info">
+                            <p>
+                            <ul>
+                                <li>
+                                    <p>Estudos 2 ano</p>
+                                </li>
+                                <li>
+                                    <p>Projetos profissionais</p>
+                                </li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -325,23 +583,31 @@
 
         </div>
     </section>
+    <!-- Fim section skills -->
 
 
 
 
 
+
+
+
+
+
+
+    <!-- Inicio rodapé -->
     <footer class="container">
         <div class="copyright">
-            Copyright © 2024 BESTSTART. Web Developer
+            Copyright © 2024 Nicolas. Web Developer
         </div>
     </footer>
-
+    <!-- Fim rodapé -->
 
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-
+    <!-- Script para infinity type no header -->
     <script>
         var typed = new Typed(".auto-type", {
             strings: ["Programador", "Backend Developer", "Frontend Developer"],
@@ -352,9 +618,7 @@
             loopCount: Infinity
         })
     </script>
-
-
-
+    <!-- Scriptjs com as animações -->
     <script src="js/script.js"></script>
 </body>
 
