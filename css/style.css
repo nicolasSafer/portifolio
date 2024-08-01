@@ -1154,10 +1154,10 @@ article {
   color: white;
   text-transform: uppercase;
 }
-
+/* 
 input {
   display: none;
-}
+} */
 
 
 input:checked+label {
@@ -1188,4 +1188,79 @@ input:checked+label .description {
 .card-project[for="c4"] {
   background-image: url('https://nicolasfernandes.dev.br/portifolio/images/header.png');
 
+}
+
+.form-email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 100%;
+  max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+.email {
+  display: block ;
+}
+input,
+textarea,
+.email{
+  width: 100%;
+  font: inherit !important;
+  padding: 1.24rem;
+  font-weight: 700;
+}
+
+input, textarea {
+
+  margin-bottom: 1rem;
+  color: black !important;
+  background: #fff;
+  border: 0.125rem solid transparent ;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+  outline: none;
+  border-color: #1d90f5;
+
+}
+
+label{
+  margin-bottom: 0.5rem;
+
+}
+
+textarea{
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+ .email{
+  border: none;
+  border-radius: 99px;
+  color: white;
+  background: #1d90f5;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.email:hover,
+.email:focus{
+  outline: none;
+  background: #1c70d3;
+}
+
+.email.disabled{
+cursor: not-allowed;
+background: #555b69;
 }

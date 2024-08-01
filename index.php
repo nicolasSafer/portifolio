@@ -75,7 +75,7 @@
 
 
     <!-- Section projetos -->
-    <!-- 
+<!--     
     <div class="titulo ">
         <h2 class="tl ">Projetos</h2>
         <p>Alguns projetos de estudos e profissionais</p>
@@ -586,9 +586,24 @@
     <!-- Fim section skills -->
 
 
+    <div class="titulo">
+        <h2 class="conhecimento">Vamos trabalhar junto?</h2>
+        <p>Envie-me um e-mail para <b>iniciarmos seu projeto.</b></p>
+    </div>
 
+    <section class="form-email">
+        <form action="enviar.php" name="FormEnvia" method="POST" data-form>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome"  id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email"  id="email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <button type="submit" name="FormEnvia" class="email" data="button">Enviar</button>
 
+        </form>
 
+    </section>
 
 
 

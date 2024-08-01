@@ -42,3 +42,34 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// class FormSubmit{
+//    constructor(settings){
+//       this.settings = settings;
+//       this.form  =  document.querySelector(settings.form);
+//       this.FormButton = document.querySelector(settings.button);
+//       if(this.form){
+//          this.url = this.form.getAttribute("action");
+//       }
+//    }
+//    displaySuccess(){
+//       this.form.innerHTML = this.setting.success;
+//    }
+
+//    displayError(){
+//       this.form.innerHTML = this.settings.error;
+//    }
+//    init(){
+//       if(this.form) this.FormButton.addEventListerner("click", ()=>this.displaySuccess());
+//       return  this;
+//    }
+// }
+
+// const formSubmit = new FormSubmit({
+// form: "[data-form]",
+// button: "[data-button]",
+// succcess: "<h1 class='success'>Mensagem enviada</h1>",
+// error: "<h1 class='error'>Não foi possível enviar a mensagem</h1>",
+
+// });
+
+
