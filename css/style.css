@@ -173,7 +173,7 @@ header .content h1 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 4rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 header .content h1 span {
@@ -183,10 +183,13 @@ header .content h1 span {
   justify-content: center;
 }
 
+header .info-sobre{
+  margin-top: 10px;
+}
 header .content p {
   margin-bottom: 2rem;
-  color: #ccc;
-  text-align: justify;
+  /* color: #ccc; */
+  /* text-align: justify; */
 
 
 }
@@ -792,7 +795,7 @@ article {
   position: relative;
 }
 
-.timeline-box .timeline-content::before {
+.timeline-box .timeline-content::before { 
   content: '';
   position: absolute;
   left: -10.5px;
@@ -946,12 +949,14 @@ article {
   background: #fff;
   cursor: pointer;
   transition: 0.3s ease;
-  width: 170px;
+  width: 150px;
   border: 1px solid #000;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
   height: 250px; /* Defina uma altura fixa */
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 .skills .container .bar:hover {
@@ -1027,9 +1032,8 @@ article {
 
   .skills .container-con {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    flex-wrap: wrap;
-    gap: 1.8rem;
+  grid-template-columns: 1fr;
+  gap: 1.8rem;
   }
 
 }
